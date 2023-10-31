@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!--<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora:ital@1&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="webmain.css">
+<link rel="shortcut icon" type="image/jpg" href="./images/favicon.png"/>
+<!--<link rel="script" href="main.js">-->
+<body>
+
+   <div class="topnav" id="myTopnav">
+    <div class="homies">
+     <a href="index.html" class="active"><img src="./images/favicon.png" alt = "IITH Logo" width = "55" height = "55"> 
+       <div class="textt">
+       <span class="nameofdept">Department of IC Design & Technology</span><br>
+       <span class="instiname">Indian Institute of Technology Hyderabad</span>
+     </div>
+     <a href="about.html">About Us</a>
+     <div class="dropdown">
+      <button class="dropbtn">Academics 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="curriculum.html">Curriculum</a>
+        <a href="timetable.html">Time Table</a>
+      </div>
+    </div>
+    
+    <a href="icdtsclub.html">ICDT Club</a>
+     <div class="dropdown">
+       <button class="dropbtn">People
+         <i class="fa fa-caret-down"></i>
+       </button>
+       <div class="dropdown-content">
+         <a href="faculty.html">Faculty</a>
+         <a href="dac.html">DAC</a>
+         <a href="students.html">Students</a>
+       </div>
+     </div> 
+     <div class="dropdown">
+      <button class="dropbtn">Facilities
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="research.html">Research</a>
+        <a href="highlights.html">Highlights</a>
+      </div>
+    </div> 
+     <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a>
+   </div>
+   </div>
+   <section style="padding-left:16px;padding-top:23px;">
+    <script>
+    
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+         </script>
+   </body>
+   </html>
+   
